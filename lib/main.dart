@@ -16,7 +16,7 @@ import 'package:webview_flutter/webview_flutter.dart';
     );
     controller
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
-    ..loadRequest(Uri.parse('http://fln.dcs.stechoq.com/tv/andon'));
+    ..loadRequest(Uri.parse('http://tes.com/tv/andon')); // ubah link urlnya
     
     return MaterialApp(
       debugShowCheckedModeBanner: false,
